@@ -8,3 +8,22 @@
 .description {
     font-style: oblique;
 }
+
+.home {
+    position: fixed;
+    top: 20%;
+    left: 50%;
+    /* bring your own prefixes */
+    transform: translate(-50%, -50%);
+    text-align:center;
+}
+
+.home a {
+    vertical-align: middle;
+    cursor: pointer;
+    color: dodgerblue;
+}
+
+.home a:hover {
+    text-decoration: underline;
+}
