@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="css/styles.css">
+    <title>Categories menu app</title>
+</head>
+    <body ng-app="MenuApp">
+
+        <ui-view></ui-view>
+
+        <!-- Libraries -->
+        <script src="lib/angular.min.js"></script>
+        <script src="lib/angular-ui-router.min.js"></script>
+        <!-- Modules -->
+        <script src="src/menu-list/menuapp.module.js"></script>
+        <script src="src/data/data.module.js"></script>
+        <!-- Routes -->
+        <script src="src/routes.js"></script>
+        <!-- 'MenuList' module artifacts -->
+        <script src="src/menu-list/menu-categories.controller.js"></script>
+        <script src="src/menu-list/components/categories/categories.component.js"></script>
+        <script src="src/menu-list/category-items.controller.js"></script>
+        <script src="src/menu-list/components/category-items/category-items.component.js"></script>
+        <script src="src/data/menudata.service.js"></script>
+    </body>
+</html>
